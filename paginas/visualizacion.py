@@ -11,15 +11,7 @@ def visualizacion_app():
     resultados obtenidos.
     """)
     st.image("imagenes/metricas_xgboost.png", use_container_width=True)
-    <iframe
-        src="data:application/pdf;base64,{base64_pdf}"
-        width="100%"
-        height="800"
-        type="application/pdf">
-    </iframe>
-    """
-    st.markdown(pdf_display, unsafe_allow_html=True)
-
+    
     st.divider()
 
     st.subheader("Visualizaciones del modelo")
