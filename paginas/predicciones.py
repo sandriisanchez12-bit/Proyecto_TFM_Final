@@ -21,7 +21,7 @@ def predicciones_app():
     """)
     st.divider()
 
-    pdf_path = "modeloIA\documentacion_tfm.pdf"
+    pdf_path = "modeloIA/documentacion_tfm.pdf"
 
     with open(pdf_path, "rb") as f:
         pdf_bytes = f.read()
