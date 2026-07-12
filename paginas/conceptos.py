@@ -128,7 +128,7 @@ def conceptos_app():
             st.write('**Ratios de Valoración**')
             st.write('PER (Price to Earnings Ratio): Relaciona el precio de una acción con el beneficio generado por acción. Cuando PER es alto las expectativas de crecimiento son elevadas, en caso contrario hay problemas en la empresa o existe una posible infravaloración')
             with st.expander('Ver Fórmula Ratio PER'):
-                st.image('imagenes\RATIO_PER.png', caption='Fórmula PER')
+                st.image('imagenes/RATIO_PER.png', caption='Fórmula PER')
             st.write('**P/B (Price to Book)**')
             st.write('Compara el valor de mercado de la empresa con su valor contable')
             with st.expander('Ver Fórmula Ratio P/B'):    
@@ -206,7 +206,7 @@ def conceptos_app():
             - **EMA (Media Móvil Exponencial)**: Da más importancia a los precios más recientes, por lo que reacciona más rápido a los movimientos bruscos del mercado
                         """)
             with st.expander('Ver comparación entre tipos de medias Móviles'):
-                st.image('imagenes\medias_moviles.jpg', caption = 'Comparación entre los tipos principales de medias móviles')
+                st.image('imagenes/medias_moviles.jpg', caption = 'Comparación entre los tipos principales de medias móviles')
 
         elif pregunta == '¿El activo está sobrecomprado o sobrevendido?':
             st.write('El concepto necesario para responder a esta pregunta es el siguiente:')
@@ -219,7 +219,7 @@ def conceptos_app():
             - **40 < RSI < 60** -> Mercado neutro
                         """)
             with st.expander('Ver Índice Fuerza Relativa (RSI) '):
-                st.image(r"imagenes\rsi.jpg", caption = 'Índice de fuerza Relativa (RSI)')
+                st.image(r"imagenes/rsi.jpg", caption = 'Índice de fuerza Relativa (RSI)')
 
         elif pregunta == '¿Está cambiando la tendencia?':
             st.write('Para identificar los cambios de tendencia, se emplea el siguiente concepto:')
@@ -237,7 +237,7 @@ def conceptos_app():
             - Cuando el MACD cruza hacia abajo la señal -> Venta
                         """)
             with st.expander('Ver Señales de compra o venta en función del MACD '):
-                st.image('imagenes\MACD.webp', caption = 'Señales de compra o venta en función del MACD')
+                st.image('imagenes/MACD.webp', caption = 'Señales de compra o venta en función del MACD')
 
         elif pregunta == '¿Cuánta volatilidad tiene el mercado?':
             st.write('Teniendo en cuenta que la volatilidad mide la variación del precio en el tiempo para poder evaluar el riesgo del activo, el siguiente concepto va más allá y mide también las posibles explosiones de precio:')
@@ -250,7 +250,7 @@ def conceptos_app():
             - **Bandas estrechas** -> Posible gran movimiento futuro
                        """)
             with st.expander('Ver Ejemplo de Bandas de Bollinger'):
-                st.image(r"imagenes\bandas-de-bollinger.jpg", caption = 'Ejemplo de Bandas de Bollinger')
+                st.image(r"imagenes/bandas-de-bollinger.jpg", caption = 'Ejemplo de Bandas de Bollinger')
 
         elif pregunta == '¿Qué tan rápido se mueve el precio?':
             st.write('Para respondes a esta pregunta, es necesario conocer el sogiente concepto:')
@@ -277,7 +277,7 @@ def conceptos_app():
             - **Triángulo descentende** -> Ruptura bajista
                         """)
             with st.expander('Ver Ejemplos de patrones visuales en bolsa'):
-                st.image('imagenes\patrones_graficos.jpg', caption = 'Algunos ejemplos de patrones visuales en bolsa')
+                st.image('imagenes/patrones_graficos.jpg', caption = 'Algunos ejemplos de patrones visuales en bolsa')
 
 
     elif seleccion == 'Gestión del riesgo':
@@ -489,7 +489,7 @@ def conceptos_app():
             st.write('Si desea ver un gráfico resumen de la evolución del PIB en España en los últimos 10 años pulse el siguiente botón')
             bimagenpib = st.button('Evolución PIB')
             if bimagenpib:
-                st.image('imagenes\grafica_pib_espana_2016_2026.png', caption = 'Evolución PIB España 2016-2026')
+                st.image('imagenes/grafica_pib_espana_2016_2026.png', caption = 'Evolución PIB España 2016-2026')
 
 
         with st.expander("**Inflación**"):
@@ -506,7 +506,7 @@ def conceptos_app():
             st.write('Si desea ver un gráfico resumen de la evolución de la inflación en España en los últimos años pulse el siguiente botón')
             bimageninf = st.button('Evolución inflación')
             if bimageninf:
-                st.image('imagenes\grafica_inflacion_espana_2016_2026.png', caption = 'Evolución inflación en España 2016 - 2026')
+                st.image('imagenes/grafica_inflacion_espana_2016_2026.png', caption = 'Evolución inflación en España 2016 - 2026')
 
 
 
@@ -533,7 +533,7 @@ def conceptos_app():
             st.write('Si desea ver un gráfico resumen de la evolución de los tipos de interés en Europa en los últimos años pulse el siguiente botón')
             bimagenint = st.button('Evolución tipos de interés')
             if bimagenint:
-                st.image('imagenes\grafica_tipos_interes_bce_2018_2025.png', caption = 'Evolución tipos de interés Europa 2018 - 2025')
+                st.image('imagenes/grafica_tipos_interes_bce_2018_2025.png', caption = 'Evolución tipos de interés Europa 2018 - 2025')
 
 
 
@@ -550,7 +550,7 @@ def conceptos_app():
             st.write('Si desea ver un gráfico resumen de la evolución del desempleo en España en los últimos años pulse el siguiente botón')
             bimagendes = st.button('Evolución desempleo')
             if bimagendes:
-                st.image('imagenes\grafica_desempleo_espana_2016_2026.png', caption = 'Evolución desempleo en España 2016 - 2026')
+                st.image('imagenes/grafica_desempleo_espana_2016_2026.png', caption = 'Evolución desempleo en España 2016 - 2026')
 
 
     elif seleccion == 'Psicología del mercado': 
@@ -575,7 +575,7 @@ def conceptos_app():
                                     """)
         bimagen = st.button('Observar el ciclo emocional del inversor')
         if bimagen:
-            st.image('imagenes\ciclo_emocional.png', caption = 'Ciclo emocional del inversor')
+            st.image('imagenes/ciclo_emocional.png', caption = 'Ciclo emocional del inversor')
 
         st.write('---------')
         st.subheader('Sesgos Cognitivos:')
@@ -678,7 +678,7 @@ def conceptos_app():
                     """)
         bimg = st.button('Comparación entre Invertir y Trading')
         if bimg:
-            st.image('imagenes\invertir_vs_trading.png', caption = 'Tabla comparativa entre invertir y hacer trading')
+            st.image('imagenes/invertir_vs_trading.png', caption = 'Tabla comparativa entre invertir y hacer trading')
         st.write('------------')
         st.subheader('Conceptos básicos de Tading')
         st.markdown("""
@@ -801,7 +801,7 @@ def conceptos_app():
         st.write('**Funcionamiento:**')
         st.write('Cuando una inversión genera rentabilidad, los beneficios obtenidos se suman al capital invertido. En el siguiente período, la rentabilidad se calcula sobre esa cantidad mayor. Esto provoca que el crecimiento sea cada vez más rápido con el paso del tiempo.')
         with st.expander('Ver un ejemplo'):
-            st.image('imagenes\interes_compuesto.png', caption = 'Ejemplo del interés compuesto')
+            st.image('imagenes/interes_compuesto.png', caption = 'Ejemplo del interés compuesto')
         st.write('----------')  
         st.subheader('📈 Simulador de Interés Compuesto📈')
 
