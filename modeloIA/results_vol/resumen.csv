@@ -1,0 +1,2 @@
+modelo,horizonte,n_test,DirAcc,F1_macro,ROC_AUC,p_value,significativo,threshold
+XGBoost - Régimen Volatilidad,10,1496,79.48,0.767,0.831,0.0,True,0.48
