@@ -10,9 +10,7 @@ def visualizacion_app():
     métricas de rendimiento y diferentes visualizaciones que facilitan la interpretación de los
     resultados obtenidos.
     """)
-    with open("powerbis/metricas_xgboost.pdf", "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode("utf-8")
-    pdf_display = f"""
+    st.image("imagenes/metricas_xgboost.png", use_container_width=True)
     <iframe
         src="data:application/pdf;base64,{base64_pdf}"
         width="100%"
