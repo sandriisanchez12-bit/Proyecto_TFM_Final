@@ -100,7 +100,7 @@ def conceptos_app():
             
             st.write('--------------------')
             with st.expander('Ver Resumen'):
-                st.image('imagenes\estados financieros.png', caption='Resumen de los estados financieros')
+                st.image('imagenes/estados financieros.png', caption='Resumen de los estados financieros')
             
 
         elif concepto == 'Ratios':
@@ -108,22 +108,22 @@ def conceptos_app():
             st.write('**ROE (Return on Equity)**')
             st.write('Mide la rentabilidad obtenida sobre los recursos propios. Cuanto mayor ROE, mejor utilización del capital de los accionistas.')
             with st.expander('Ver Fórmula ROE'):
-                st.image('imagenes\imagenRoe.png', caption='Fórmula ROE')
+                st.image('imagenes/imagenRoe.png', caption='Fórmula ROE')
             st.write('----------')
             st.write('**ROA (Return on Assets)**')
             st.write('Mide la rentabilidad generada por todos los activos de la empresa.')
             with st.expander('Ver Fórmula ROA'):
-                st.image('imagenes\imagenRoa.png', caption='Fórmula ROA')
+                st.image('imagenes/imagenRoa.png', caption='Fórmula ROA')
             st.write('----------')
             st.write('**Ratios de Liquidez**')
             st.write('Ratio corriente: Mide la capacidad de la empresa para afrontar sus obligaciones a corto plazo. Cuando su valor es mayor que 1 es generalmente saludable, en caso contrario existe una posible dificultas para pagar deudas a corto plazo')
             with st.expander('Ver Fórmula Ratio Corriente'):
-                st.image(r"imagenes\ratio_corriente.png", caption='Fórmula Ratio Corriente')
+                st.image(r"imagenes/ratio_corriente.png", caption='Fórmula Ratio Corriente')
             st.write('----------')
             st.write('**Ratios de Endeudamiento**')
             st.write('Ratio de Deuda: Indica qué porcentaje de los activos está financiado mediante deuda.')
             with st.expander('Ver Fórmula Ratio de Endeudamiento'):
-                st.image(r"imagenes\ratio_endeudamiento.png", caption='Fórmula Ratio de Deuda')
+                st.image(r"imagenes/ratio_endeudamiento.png", caption='Fórmula Ratio de Deuda')
             st.write('----------')
             st.write('**Ratios de Valoración**')
             st.write('PER (Price to Earnings Ratio): Relaciona el precio de una acción con el beneficio generado por acción. Cuando PER es alto las expectativas de crecimiento son elevadas, en caso contrario hay problemas en la empresa o existe una posible infravaloración')
@@ -132,7 +132,7 @@ def conceptos_app():
             st.write('**P/B (Price to Book)**')
             st.write('Compara el valor de mercado de la empresa con su valor contable')
             with st.expander('Ver Fórmula Ratio P/B'):    
-                st.image(r"imagenes\ratio_PB.png", caption='Fórmula P/B')
+                st.image(r"imagenes/ratio_PB.png", caption='Fórmula P/B')
         
         elif concepto == 'Conceptos Fundamentales':
             st.subheader('Beneficio por acción (BPA o EPS)')
@@ -173,7 +173,7 @@ def conceptos_app():
                 st.write('el precio se mueve en un rango sin dirección clara. Muy frecuente en mercados indecisos.')
             st.write('--------------------')
             with st.expander('Ver Comparación de las 3 Tendencias'):
-                st.image(r'imagenes\tendencias.png', caption='Comparación Tendencias')
+                st.image(r'imagenes/tendencias.png', caption='Comparación Tendencias')
             st.write('---------')
 
         elif pregunta == '¿Es un buen momento para comprar?':
@@ -182,7 +182,7 @@ def conceptos_app():
             st.write('**Soporte:** Zona de rebote hacia arriba, donde aparecen compradores, ya que estos consideran que el precio es barato. U.n ejemplo puede ser cuando una acción cae repetidamente hasta 50 euros y luego rebota hacia arriba de nuevo. Ese pico mínimo es un soporte.')
             st.write('**Resistencia:** Zona de rechazo hacia abajo, donde aparecen vendedores, porque consideran que ese precio en caro. Un ejemplo sería si una acción sube varias veces a 100 euros y vuelve a caer, ese pico máximo sería una resistencia')
             with st.expander('Ejemplo de Soportes y Resistencias'):
-                st.image('imagenes\soportes y resistencias.png', caption = 'Identificando soportes y resistencias')
+                st.image('imagenes/soportes y resistencias.png', caption = 'Identificando soportes y resistencias')
 
         elif pregunta == '¿Cuánta fuerza tiene el movimiento del precio?':
             st.write('Para responder esta pregunta debemos conocer el siguiente concepto:')
@@ -194,7 +194,7 @@ def conceptos_app():
             - **Caída + volumen alto** -> Presión bajista fuerte
                         """)
             with st.expander('Ver Ejemplo'):
-                st.image(r"imagenes\volumen.png", caption = 'Fuerza del movimiento en función del volumen')
+                st.image(r"imagenes/volumen.png", caption = 'Fuerza del movimiento en función del volumen')
         
         elif pregunta == '¿Cuál es la dirección suavizada del precio?':
             st.write('El siguiente concepto es necesario para responder a esta pregunta:')
