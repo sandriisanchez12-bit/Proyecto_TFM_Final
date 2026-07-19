@@ -26,9 +26,9 @@ import joblib
 # ---------------------------------------------------------------
 # RUTAS — ajusta si es necesario
 # ---------------------------------------------------------------
-TRAIN_CSV = r"C:\Users\usuario\Desktop\tfm_sandra\xgboost\train_2000_vix_usd_v2.csv"
-VAL_CSV   = r"C:\Users\usuario\Desktop\tfm_sandra\xgboost\val_2000_vix_usd_v2.csv"
-TEST_CSV  = r"C:\Users\usuario\Desktop\tfm_sandra\xgboost\test_2000_vix_usd_v2.csv"
+TRAIN_CSV = r"C:\Users\jsmsa\OneDrive\Escritorio\tfm_sandra\Entrega\train_2000_vix_usd_v2.csv"
+VAL_CSV   = r"C:\Users\jsmsa\OneDrive\Escritorio\tfm_sandra\Entrega\val_2000_vix_usd_v2.csv"
+TEST_CSV  = r"C:\Users\jsmsa\OneDrive\Escritorio\tfm_sandra\Entrega\test_2000_vix_usd_v2.csv"
 
 FEATURE_DIR = "./data/features_vol"
 MODEL_DIR   = "./models_vol"

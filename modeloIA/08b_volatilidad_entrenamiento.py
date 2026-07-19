@@ -25,7 +25,7 @@ os.makedirs(RESULTS_DIR, exist_ok=True)
 
 N_TRIALS   = 600
 EARLY_STOP = 50
-USE_GPU    = True
+USE_GPU    = False
 
 
 def load_data():
