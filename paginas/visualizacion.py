@@ -10,7 +10,7 @@ def visualizacion_app():
     métricas de rendimiento y diferentes visualizaciones que facilitan la interpretación de los
     resultados obtenidos.
     """)
-    st.image("powerbis/metricas_xgboost.png", use_container_width=True)
+    st.image("powerbis/metricas.png", use_container_width=True)
     
     st.divider()
 
